@@ -1,17 +1,21 @@
-# Linux Piper Text-to-Speech Script
+# Linux Piper TTS 🎙️
 
-A lightweight Linux shell script with a Zenity GUI that converts text to high-quality local speech using the Piper AI TTS engine.
+Linux sistemler için, Zenity arayüzü destekli, hafif ve hızlı bir metinden sese (Text-to-Speech / TTS) dönüştürme aracı. Piper TTS motorunu arkada kullanarak hızlı ve kaliteli ses sentezi gerçekleştirir.
 
-## ✨ Features
-- **Zenity GUI:** Simple and user-friendly graphical interface.
-- **Piper AI:** Fast, high-quality, and completely local Text-to-Speech generation.
-- **Lightweight:** Minimal dependencies, perfect for custom or minimal Linux setups.
+## Özellikler
+- 🚀 **Hafif ve Hızlı:** Ağır Python kütüphaneleri veya karmaşık servisler yerine doğrudan Piper motorunu kullanır.
+- 🪟 **Zenity Grafik Arayüzü:** Ekstra bağımlılık gerektirmeyen, temiz ve sade pencereler.
+- 📦 **Yerel .deb Paketi:** Sistem kararlılığını bozmayan, Snap/Flatpak barındırmayan saf Debian paket yapısı.
+- 🎵 **Ses Üretimi:** Yazdığınız metinleri anında ses dosyalarına dönüştürün.
 
-## 🖼️ Screenshot
-![Uygulama Ekran Görüntüsü](screenshot.jpg)
+## Gereksinimler
+- `piper-tts` (Sistemde kurulu olmalıdır)
+- `zenity` (Grafik arayüz pencereleri için)
 
-## 🚀 Usage
-1. Make sure you have `zenity` and `piper` installed on your system.
-2. Run the script:
-   ```bash
-   ./ses_olustur.sh
+## Kurulum (.deb ile)
+
+Sisteminizde QApt veya GDebi kullanarak ya da terminal üzerinden kolayca kurabilirsiniz:
+
+```bash
+sudo dpkg -i linux-piper-tts_1.0_all.deb
+sudo apt-get install -f # Eksik bağımlılıklar için
