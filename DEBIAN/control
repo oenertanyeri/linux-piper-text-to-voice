@@ -1,0 +1,8 @@
+Package: oner-metin-ses
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Öner Tanyeri <oner@kf500>
+Description: Öner Tanyeri Metinden Ses Oluşturma Programı
+ Piper TTS motorunu kullanarak metinleri Türkçe ses dosyalarına dönüştüren özel araç.
