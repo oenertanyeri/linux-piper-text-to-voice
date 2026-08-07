@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=Metinden Sese Dönüştürücü
+Exec=ses-olustur
+Icon=view-media-lyrics
+Name=Oener Tanyeri Metinden Sese Çevirme
+Terminal=false
+Type=Application\\ategories=AudioVideo;Utility;
